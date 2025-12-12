@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="15" alignment="CENTER" style="-fx-background-color: #212121;"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.client.controllers.ProfileController">
+
+    <padding>
+        <Insets top="30" right="50" bottom="30" left="50"/>
+    </padding>
+
+    <Label text="Profile" styleClass="screen-title"/>
+
+    <Region minHeight="15"/>
+
+    <Label text="Name:" styleClass="section-title"/>
+    <TextField fx:id="nameField" promptText="Your name" prefWidth="250"/>
+
+    <Label text="Email:" styleClass="section-title"/>
+    <TextField fx:id="emailField" promptText="Your email" prefWidth="250"/>
+
+    <Region minHeight="15"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Save" onAction="#saveProfile" styleClass="button-primary"/>
+        <Button text="Back" onAction="#back"/>
+    </HBox>
+
+</VBox>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" alignment="CENTER" style="-fx-background-color: #212121;"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.client.controllers.MembersController">
+
+    <padding>
+        <Insets top="20" right="30" bottom="20" left="30"/>
+    </padding>
+
+    <Label text="Group Members" styleClass="screen-title"/>
+
+    <ListView fx:id="membersList" prefWidth="300" prefHeight="250" VBox.vgrow="ALWAYS"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <TextField fx:id="emailField" promptText="Enter email" prefWidth="160"/>
+        <Button fx:id="addButton" text="Add" onAction="#addMember" styleClass="button-primary"/>
+        <Button fx:id="deleteButton" text="Delete" onAction="#deleteMember" style="-fx-background-color: #D32F2F; -fx-text-fill: white;"/>
+    </HBox>
+
+    <Button text="Back" onAction="#back"/>
+
+</VBox>

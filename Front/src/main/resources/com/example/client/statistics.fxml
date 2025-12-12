@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<ScrollPane fitToWidth="true" style="-fx-background-color: #212121;"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.client.controllers.StatisticsController">
+
+    <VBox spacing="15" alignment="CENTER" style="-fx-background-color: #212121;">
+
+        <padding>
+            <Insets top="20" right="30" bottom="20" left="30"/>
+        </padding>
+
+        <Label text="Group Statistics" styleClass="screen-title"/>
+
+        <HBox spacing="20" alignment="CENTER">
+            <VBox alignment="CENTER" style="-fx-background-color: #2D4A6D; -fx-padding: 15; -fx-background-radius: 10;" prefWidth="100">
+                <Label text="Total" style="-fx-font-size: 12px; -fx-text-fill: #9E9E9E;"/>
+                <Label fx:id="totalTasksLabel" text="0" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #42A5F5;"/>
+            </VBox>
+            <VBox alignment="CENTER" style="-fx-background-color: #4A2D2D; -fx-padding: 15; -fx-background-radius: 10;" prefWidth="100">
+                <Label text="Open" style="-fx-font-size: 12px; -fx-text-fill: #9E9E9E;"/>
+                <Label fx:id="openTasksLabel" text="0" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #FF7043;"/>
+            </VBox>
+            <VBox alignment="CENTER" style="-fx-background-color: #4A3D2D; -fx-padding: 15; -fx-background-radius: 10;" prefWidth="100">
+                <Label text="In Progress" style="-fx-font-size: 12px; -fx-text-fill: #9E9E9E;"/>
+                <Label fx:id="inProgressLabel" text="0" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #FFB74D;"/>
+            </VBox>
+            <VBox alignment="CENTER" style="-fx-background-color: #2D4A2D; -fx-padding: 15; -fx-background-radius: 10;" prefWidth="100">
+                <Label text="Done" style="-fx-font-size: 12px; -fx-text-fill: #9E9E9E;"/>
+                <Label fx:id="completedTasksLabel" text="0" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #81C784;"/>
+            </VBox>
+        </HBox>
+
+        <Label text="Completed Tasks" styleClass="section-title"/>
+        <HBox spacing="20" alignment="CENTER">
+            <VBox alignment="CENTER" style="-fx-background-color: #2D3A4A; -fx-padding: 12; -fx-background-radius: 8;" prefWidth="90">
+                <Label text="Today" style="-fx-font-size: 11px; -fx-text-fill: #9E9E9E;"/>
+                <Label fx:id="completedTodayLabel" text="0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #64B5F6;"/>
+            </VBox>
+            <VBox alignment="CENTER" style="-fx-background-color: #2D3A4A; -fx-padding: 12; -fx-background-radius: 8;" prefWidth="90">
+                <Label text="This Week" style="-fx-font-size: 11px; -fx-text-fill: #9E9E9E;"/>
+                <Label fx:id="completedWeekLabel" text="0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #64B5F6;"/>
+            </VBox>
+            <VBox alignment="CENTER" style="-fx-background-color: #2D3A4A; -fx-padding: 12; -fx-background-radius: 8;" prefWidth="90">
+                <Label text="This Month" style="-fx-font-size: 11px; -fx-text-fill: #9E9E9E;"/>
+                <Label fx:id="completedMonthLabel" text="0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #64B5F6;"/>
+            </VBox>
+        </HBox>
+
+        <Label text="Tasks by Status" styleClass="section-title"/>
+        <BarChart fx:id="statusChart" prefHeight="180" prefWidth="400" legendVisible="false">
+            <xAxis>
+                <CategoryAxis label="Status"/>
+            </xAxis>
+            <yAxis>
+                <NumberAxis label="Count"/>
+            </yAxis>
+        </BarChart>
+
+        <Label text="Member Contributions" styleClass="section-title"/>
+        <VBox fx:id="memberStatsBox" spacing="8" style="-fx-padding: 10; -fx-background-color: #2D2D2D; -fx-background-radius: 8;" prefWidth="450"/>
+
+        <Button text="Back" onAction="#back"/>
+
+    </VBox>
+</ScrollPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="15" alignment="CENTER" style="-fx-background-color: #212121;"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.client.controllers.MaterialsController">
+
+    <padding>
+        <Insets top="20" right="30" bottom="20" left="30"/>
+    </padding>
+
+    <Label text="Study Materials" styleClass="screen-title"/>
+    <Label text="(Click on a material to delete or download)" style="-fx-font-size: 11px; -fx-text-fill: #9E9E9E;"/>
+
+    <ListView fx:id="materialsList" prefWidth="450" prefHeight="300" VBox.vgrow="ALWAYS"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Add Link" onAction="#addLink" styleClass="button-primary"/>
+        <Button text="Upload File" onAction="#uploadFile"/>
+        <Button text="Back" onAction="#back"/>
+    </HBox>
+
+</VBox>

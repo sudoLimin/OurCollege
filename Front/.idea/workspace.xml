@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6d9ddfd-b3e0-4480-b5f8-8c30d58b2dff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/WSClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/WSClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/EditTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/EditTaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/GroupsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/GroupsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/MaterialsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/MaterialsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/MembersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/MembersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/NotificationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/NotificationsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/StatisticsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/StatisticsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/TaskDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/TaskDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/TasksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/controllers/TasksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/holders/StageHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/holders/StageHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/holders/TaskHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/holders/TaskHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/holders/UserHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/holders/UserHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/models/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/models/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/utils/SceneUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/utils/SceneUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/client/utils/ValidationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/client/utils/ValidationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/chat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/edit_task.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/edit_task.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/groups.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/groups.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/materials.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/materials.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/members.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/members.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/notifications.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/notifications.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/profile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/statistics.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/statistics.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/styles/dark-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/styles/dark-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/task_details.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/task_details.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/client/tasks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/client/tasks.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sudoLimin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sudoLimin/Front.git",
+    "accountId": "8233fde2-9ce8-4213-8856-a6f6c95099ae"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="36khb6YMKhqNOccMiE8SWgZvB9b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6d9ddfd-b3e0-4480-b5f8-8c30d58b2dff" name="Changes" comment="" />
+      <created>1765556546265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765556546265</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

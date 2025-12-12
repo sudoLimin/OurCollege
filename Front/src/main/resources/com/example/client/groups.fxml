@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" alignment="CENTER" style="-fx-background-color: #212121;"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.client.controllers.GroupsController">
+
+    <padding>
+        <Insets top="15" right="20" bottom="15" left="20"/>
+    </padding>
+
+    <Label text="Groups" styleClass="screen-title"/>
+    <Label text="(Double-click to open tasks)" style="-fx-font-size: 11px; -fx-text-fill: #9E9E9E;"/>
+
+    <ListView fx:id="groupsList" prefWidth="300" prefHeight="250" onMouseClicked="#groupClicked"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Chat" onAction="#openChat"/>
+        <Button text="Materials" onAction="#openMaterials"/>
+        <Button text="Members" onAction="#openMembers"/>
+        <Button text="Statistics" onAction="#openStatistics"/>
+    </HBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Edit Group" onAction="#editGroup"/>
+        <Button text="Delete Group" onAction="#deleteGroup" style="-fx-background-color: #D32F2F;"/>
+    </HBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Add Group" onAction="#addGroup" styleClass="button-primary"/>
+        <Button text="Back" onAction="#back"/>
+    </HBox>
+
+</VBox>

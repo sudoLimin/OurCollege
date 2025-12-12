@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="15" alignment="CENTER" style="-fx-background-color: #212121;"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.client.controllers.MainController">
+
+    <padding>
+        <Insets top="30" right="30" bottom="30" left="30"/>
+    </padding>
+
+    <Label text="Main Menu" styleClass="main-title"/>
+
+    <Region VBox.vgrow="ALWAYS" minHeight="20"/>
+
+    <Button text="Groups" onAction="#openGroups" prefWidth="200"/>
+    <Button text="Notifications" onAction="#openNotifications" prefWidth="200"/>
+    <Button text="Profile" onAction="#openProfile" prefWidth="200"/>
+
+    <Region VBox.vgrow="ALWAYS"/>
+
+    <Button text="Logout" onAction="#logout" styleClass="logout-button" prefWidth="200"/>
+
+</VBox>

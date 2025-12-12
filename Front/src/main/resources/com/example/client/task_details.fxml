@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="15" alignment="CENTER" style="-fx-background-color: #212121;"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.client.controllers.TaskDetailsController">
+
+    <padding>
+        <Insets top="20" right="30" bottom="20" left="30"/>
+    </padding>
+
+    <Label text="Task Details" styleClass="screen-title"/>
+
+    <Region VBox.vgrow="ALWAYS" minHeight="10"/>
+
+    <Label fx:id="titleLabel" styleClass="section-title" style="-fx-font-size: 22px;"/>
+
+    <Label fx:id="descLabel" style="-fx-font-size: 16px;"/>
+    <Label fx:id="statusLabel" style="-fx-font-size: 16px;"/>
+    <Label fx:id="createdLabel" style="-fx-font-size: 14px;"/>
+    <Label fx:id="deadlineLabel" text="Deadline:" style="-fx-font-size: 14px;"/>
+
+    <Region VBox.vgrow="ALWAYS" minHeight="20"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Mark Done" onAction="#markDone" styleClass="button-primary"/>
+        <Button text="Edit" onAction="#edit"/>
+        <Button text="Delete" onAction="#deleteTask" style="-fx-background-color: #D32F2F;"/>
+        <Button text="Back" onAction="#goBack"/>
+    </HBox>
+
+</VBox>

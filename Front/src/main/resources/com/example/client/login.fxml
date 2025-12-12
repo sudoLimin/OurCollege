@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<VBox spacing="15" alignment="CENTER" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.client.controllers.LoginController">
+    <padding>
+        <Insets top="50" right="100" bottom="50" left="100"/>
+    </padding>
+    <Label text="Login" styleClass="main-title"/>
+    <Region minHeight="20"/>
+    <TextField fx:id="emailField" promptText="Email" prefWidth="250"/>
+    <PasswordField fx:id="passwordField" promptText="Password" prefWidth="250"/>
+    <CheckBox fx:id="rememberMeCheckBox" text="Remember Me"/>
+    <Region minHeight="10"/>
+    <Button text="Login" onAction="#login" styleClass="button-primary" prefWidth="150"/>
+    <Button text="Register" onAction="#goToRegister" prefWidth="150"/>
+</VBox>

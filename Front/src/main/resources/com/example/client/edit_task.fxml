@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="15" alignment="CENTER" style="-fx-background-color: #212121;"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.client.controllers.EditTaskController">
+
+    <padding>
+        <Insets top="20" right="40" bottom="20" left="40"/>
+    </padding>
+
+    <Label text="Add/Edit Task" styleClass="screen-title"/>
+
+    <Region minHeight="10"/>
+
+    <Label text="Title" styleClass="section-title"/>
+    <TextField fx:id="titleField" promptText="Task title" prefWidth="300"/>
+
+    <Label text="Description" styleClass="section-title"/>
+    <TextArea fx:id="descField" promptText="Task description" prefHeight="100" prefWidth="300"/>
+
+    <Label text="Deadline" styleClass="section-title"/>
+    <DatePicker fx:id="deadlinePicker" promptText="Select deadline (optional)" prefWidth="300"/>
+
+    <Region minHeight="15"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Save" onAction="#save" styleClass="button-primary"/>
+        <Button text="Cancel" onAction="#cancel"/>
+    </HBox>
+</VBox>

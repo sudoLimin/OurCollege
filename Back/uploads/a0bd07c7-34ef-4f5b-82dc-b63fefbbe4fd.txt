@@ -1,0 +1,53 @@
+1. Nájdite polohu ťažiska písmená H, pre vhodne zvolenú súradnicovú sústavu. Písmeno je
+zložené z 3 tenkých drôtov, ktoré majú rovnakú hmotnosť m a rovnakú dĺžku L.
+2. Nájdite polohu ťažiska útvaru na obrázku, ktorý vznikol tak, že sa z obdĺžnika so
+stranami a, b vyrezal na jednej starne polkruh polomeru b
+2
+ a priložil sa na druhú stranu
+obdĺžnika.
+3. Nájdite polohu ťažiska útvaru, ktorý vnznikne, keď zo štvorca so stranou a vystrihneme
+trojuholník podľa obrázka.
+4. Koleso na hriadeli má moment zotrvačnosti J vzhľadom na os otáčania. Na hriadeli s
+polomerom r je navinuté lano, na ktorom je zavesené závažie hmotnosti m. V určitom
+okamihu sa dá závažie do pohybu vplyvom vlastnej tiaže. O akú dráhu klesne závažie za
+čas t0?
+5. Akými silami je namáhané lano prevesené cez kladku s polomerom R a momentom
+zotrvačnosti J, na koncoch ktorého sú umiestnené závažia s hmotnosťami m1
+ a m2
+.
+Bremená sa samovoľne pohybujú a m1 < m2
+.
+6. Kyvadlo tvorí tyč hmotnosti m a dĺžky l1 zavesené na tenkom lanku dĺžky l2 (hmotnosť
+lanka neuvažujeme). Vypočítajte moment zotrvačnosti zavesenej tyče. Vypočítajte
+periódu kmitania v limite pre malé uhly.
+7. Daná je priama homogénna tyč dĺžky L. Treba nájsť vzdialenosť od stredu tyče, v ktorej
+treba tyč upevniť, aby sa kývala ako fyzikálne kyvadlo s minimálnou periódou.
+8. Homogénnu kruhovú dosku s hmotnosťou m a polomerom r uchytíme na stenu tesne na
+okraji kruhovej dosky. Nájdite periódu tohto fyzikálneho kyvadla a jeho redukovanú dĺžku.
+9. Do akej výšky vyletí guľa hmotnosti m z pružinového kanóna, keď pri nabíjaní stlačíme
+pružinu o vzdialenosť L. Pričom vieme, že na stlačenie pružiny o vzdialenosť l0 je
+potrebá sila F0. Uvažujeme, že sila je úmerna stlačeniu pružiny.
+10. Aká je amplitúda, perióda, fázová rýchlosť a vlnová dĺžka vlny, ktorá je vyjadrená
+rovnicou: y = 0, 3sin[2π(4t + x)] ?
+11. Rovinná vlna má amplitúdu y0, rýchlosť v a frekvenciu f. Vo vzdialenosti x od
+východiskového bodu má výchylku y. Aký čas t1 potrebuje vlna na prebehnutie tejto
+dráhy?
+12. Kyvadlo vykoná 20 kmitov. Počas posledných 10 kmitov klesne amplitúda z y01 na y02.
+Aká bola amplitúda na začiatku?
+13. Aký je koeficient tlmenia kmitov hmotného bodu keď podiel dvoch za sebou idúcich
+amplitúd hmotného bodu na tú istú stranu sa rovná 2 a perióda tlmených kmitov je T?
+Aká by bola perióda netlmených kmitov za rovnakých podmienok?
+14. Vlastná kruhová frekvencia sústavy je ω0 = 50 Hz. Ako sa zmení rezonančná frekvencia
+sústavy, ak zavedieme tlmenie γ1 = 5? Aké tlmenie musíme zaviesť do sústavy aby
+Výsledky
+rezonančná frekvencia poklesla o 5%? Aké tlmenie musíme zaviesť do sústavy aby
+rezonančná frekvencia narástla o 5%?
+15. Nájdite amplitúdu kmitania harmonického oscilátora ak:
+a) udelíme oscilátoru počiatočnú výchylku l,
+b) udelíme oscilátoru počiatočnú rýchlosť v0,
+c) udelíme oscilátoru počiatočnú výchylku l a počiatočnú rýchlosť v0.
+16. Aký je koeficient pružnosti pružín v počte 4ks pier železničného vozňa, ktorého hmotnosť m, ak sa zistilo, že pri rýchlosti v sa vozeň začne prudko hojdať vplyvom nárazov na spojoch koľajníc. Dĺžka koľajnice je l. Vplyv tlmenia zanedbajte.
+17. Dva harmonické oscilátory kmitajú frekvenciami f1 a f2. V časovom okamihu t0 = 0 mali
+rovnakú fázu. Určte najbližší časový okamih t1
+, v ktorom budú mať opäť rovnakú fázu.
+18. Akou silou F musí byť napínaná oceľová struna (ρ = 7, 8 g/cm3; L = 1, 5 m; S = 1 mm2), aby zaznel tón s frekvenciou 440 Hz?

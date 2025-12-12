@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.client.controllers.TasksController" spacing="10" style="-fx-background-color: #212121;">
+
+    <padding>
+        <Insets top="15" right="15" bottom="15" left="15"/>
+    </padding>
+
+    <Label text="Tasks" styleClass="screen-title"/>
+    <Label text="(Left-click to view details, Right-click to change status)" style="-fx-font-size: 11px; -fx-text-fill: #9E9E9E;"/>
+
+    <HBox spacing="20" HBox.hgrow="ALWAYS">
+        <VBox fx:id="openColumn" styleClass="status-column" spacing="10" prefWidth="200" alignment="TOP_CENTER" HBox.hgrow="ALWAYS">
+            <Label text="OPEN" styleClass="status-header" style="-fx-text-fill: #FF7043;"/>
+        </VBox>
+
+        <VBox fx:id="inProgressColumn" styleClass="status-column" spacing="10" prefWidth="200" alignment="TOP_CENTER" HBox.hgrow="ALWAYS">
+            <Label text="IN PROGRESS" styleClass="status-header" style="-fx-text-fill: #FFB74D;"/>
+        </VBox>
+
+        <VBox fx:id="doneColumn" styleClass="status-column" spacing="10" prefWidth="200" alignment="TOP_CENTER" HBox.hgrow="ALWAYS">
+            <Label text="DONE" styleClass="status-header" style="-fx-text-fill: #81C784;"/>
+        </VBox>
+    </HBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Add Task" onAction="#addTask"/>
+        <Button text="Back" onAction="#back"/>
+    </HBox>
+
+</VBox>
